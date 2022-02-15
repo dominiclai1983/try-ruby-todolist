@@ -14,10 +14,13 @@ gem 'uglifier', '~> 4.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+#icon from fontawesome
+gem "font-awesome-rails"
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.4'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 5.0'
+
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5.2.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -28,7 +31,7 @@ gem 'jbuilder', '~> 2.11'
 gem 'bcrypt', '~> 3.1'
 
 # Bootstrap
-gem 'bootstrap', '~> 5.1'
+gem 'bootstrap', '~> 5.1.3'
 
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.112'
@@ -55,6 +58,9 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 5.1.1'
   gem 'pry-rails', '>= 0.3.9'
   gem 'rspec-rails', '~> 4.0'
+
+  gem 'sqlite3', '~> 1.4.2'
+
 end
 
 group :development do
@@ -71,5 +77,5 @@ end
 
 group :production do
   # Use pg as the database for Active Record
-  # gem 'pg', '~> 1.3.1'
+  gem 'pg', '~> 1.3.1'
 end
