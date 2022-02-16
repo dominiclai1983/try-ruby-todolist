@@ -15,5 +15,8 @@
 //= require jquery3
 //= require popper
 //= require bootstrap
+//= require font_awesome5
 //= require requests/index
 //= require_tree .
+
+FontAwesome.config.mutateApproach = 'sync'

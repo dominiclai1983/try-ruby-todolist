@@ -16,6 +16,7 @@ gem 'uglifier', '~> 4.2.0'
 
 #icon from fontawesome
 gem "font-awesome-rails"
+gem 'font_awesome5_rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.4'
