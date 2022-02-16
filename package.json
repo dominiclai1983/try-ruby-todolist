@@ -2,7 +2,7 @@
   "name": "to_do_list_full_stack",
   "version": "1.0.0",
   "engines": {
-    "node": "~12.22"
+    "node": "17.4.0"
   },
   "dependencies": {}
 }
